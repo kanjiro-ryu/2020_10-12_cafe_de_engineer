@@ -8,7 +8,7 @@ import VModal from 'vue-js-modal'
 Vue.config.productionTip = false
 
 var firebaseConfig = {
-  apiKey: "AIzaSyAaGFAL6EzF0057CumrfgUeOE6JNiBS-XM",
+  apiKey: process.env.VUE_APP_API_KEY,
   authDomain: "cafe-de-engineer.firebaseapp.com",
   databaseURL: "https://cafe-de-engineer.firebaseio.com",
   projectId: "cafe-de-engineer",
